@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link rel="icon" type="image/png" href="assets/google-logo.ico">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="header-nav">
+        <ul>
+          <li><a href="https://mail.google.com">Gmail</a></li>
+          <li><a href="https://images.google.com">Зображення</a></li>
+          <li><i class="material-icons apps-icon">apps</i></li>
+          <li><a href="https://accounts.google.com/ServiceLogin" class="login-btn">Увійти</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div id="logo">
+        <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+      </div>
+      <div class="search-bar">
+        <div class="search-input-container">
+          <i class="material-icons search-icon">search</i>
+          <input id="search-input" type="text" aria-label="Search" />
+          <div class="input-icons-right">
+            <i class="material-icons keyboard-icon" title="Екранна клавіатура">keyboard</i>
+            <img src="assets/google-mic.svg" alt="Mic Icon" title="Голосовий пошук" />
+            <img src="assets/lens-google.svg" alt="Lens Icon" title="Пошук за картинкою" />
+          </div>
+        </div>
+        <div class="btns">
+          <button id="search-button">Пошук Google</button>
+          <button id="lucky-button">Мені пощастить</button>
+        </div>
+        <div class="language-selector">
+          <label for="language-select">Мова Google:</label>
+          <select id="language-select">
+            <option value="en">English</option>
+            <option value="uk">Українська</option>
+          </select>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <span>Україна</span>
+      </div>
+      <hr class="divider" />
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="https://about.google/">Про Google</a></li>
+          <li><a href="https://ads.google.com/">Реклама</a></li>
+          <li><a href="https://www.google.com/services/">Для бізнесу</a></li>
+          <li><a href="https://www.google.com/search/howsearchworks/">Як працює Пошук</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://policies.google.com/privacy">Конфіденційність</a></li>
+          <li><a href="https://policies.google.com/terms">Умови</a></li>
+          <li><a href="#">Налаштування</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
